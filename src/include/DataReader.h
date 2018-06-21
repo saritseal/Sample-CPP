@@ -1,5 +1,7 @@
 #include <iostream>
 
 namespace DataReader{
-  int value = 1000;
+  // class DataReader{
+  //
+  // }
 }

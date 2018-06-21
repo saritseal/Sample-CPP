@@ -1,13 +1,7 @@
 #include <iostream>
+#include <boost/log/trivial.hpp>
+#include <boost/log/core.hpp>
+#include <map>
 
-using namespace std;
-
-class DummyFinancialApp {
-
-public:
-  DummyFinancialApp(){
-      cout << "Financial Application Constructor." << endl;
-  }
-
-  int startTransaction();
-};
+// using namespace std;
+//using namespace boost::log;

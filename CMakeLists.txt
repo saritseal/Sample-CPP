@@ -11,9 +11,11 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
 
 project(Sample-CPP)
 
-set(SAMPLE-CPP_INCLUDE_DIR ${PROJECT_SOURCE_DIR}/src/apps ${PROJECT_SOURCE_DIR}/src/channels
-${PROJECT_SOURCE_DIR}/src/controller ${PROJECT_SOURCE_DIR}/security ${PROJECT_SOURCE_DIR}/src/receiver
-${PROJECT_SOURCE_DIR}/src/transmitter ${PROJECT_SOURCE_DIR}/src/include)
+set(SAMPLE-CPP_INCLUDE_DIR ${PROJECT_SOURCE_DIR}/src/apps
+  #${PROJECT_SOURCE_DIR}/src/channels
+  #${PROJECT_SOURCE_DIR}/src/controller ${PROJECT_SOURCE_DIR}/src/security ${PROJECT_SOURCE_DIR}/src/receiver
+#${PROJECT_SOURCE_DIR}/src/transmitter
+${PROJECT_SOURCE_DIR}/src/include)
 
 add_subdirectory(src)
 add_subdirectory(test)
